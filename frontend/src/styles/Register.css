@@ -1,0 +1,21 @@
+.RegisterBody:not(:first-child) {
+    
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.RegisterHeaderElement {
+    position: absolute;
+    align-self: flex-start;
+    left: 10px;
+    top: 0;
+}
+
+.center__container { 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0, auto;
+    width: 100vw;
+    height: 52vh; 
+}

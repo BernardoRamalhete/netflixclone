@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+.netflix-sans-font-loaded {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.netflix-sans-font-loaded.nkufi-font-loaded {
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.netflix-sans-font-loaded.graphik-font-loaded {
+    font-family: GraphikTH,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.profile__edit__center { 
+    font-family: 'Netflix Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0, auto;
+    margin-top: 8em;
+    width: 100vw;
+    height: 38vh;
+}
+
+.profile__edit__title { 
+    color: #fff;
+    font-weight: 400;
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+.profile__edit__hr {
+    margin-top: 0;
+    opacity: 0.1;
+    width: 100%;
+}
+
+.profile__edit__image { 
+    height: 6em;
+    border-radius: 6px;
+    margin: 1em;
+}
+
+.profile__edit__image:hover { 
+    border: 1px solid #fff
+}
+
+.profile__edit__image-selected { 
+    height: 6em;
+    border-radius: 6px;
+    margin: 1em;
+    border: 2px solid #fff
+}
+
+.profile__edit__input-label input { 
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;  
+}
+
+.profile__edit__name-label{
+    color: #141414;
+    font-size: 0.1px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+.profile__edit__name-input { 
+    width: 100%;
+    height: 2.5em;
+    background: #666;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.3em 0.5em 0.3em;
+    margin-bottom: 2em;
+
+}
+
+.profile__edit__buttoms-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__edit__save-buttom { 
+    background: #fff;
+    color: black;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 0.55em 2em 0.55em;
+    border: none;
+}
+
+.profile__edit__save-buttom:hover { 
+    background: #e50914;
+    color: #fff;
+}
+
+.profile__edit__cancel-buttom {
+    background: transparent;
+    color: #666;
+    border: 1px solid #666;
+    font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 0.45em 2em 0.45em; 
+}
+
+.profile__edit__cancel-buttom:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+

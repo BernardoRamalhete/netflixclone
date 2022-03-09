@@ -1,0 +1,118 @@
+.centerManage__group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0, auto;
+    margin-top: 8em;
+    width: 100vw;
+    height: 38vh; 
+}
+
+.profilesManage__text { 
+    margin-bottom: 140px;
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    font-weight: normal;
+}
+
+.profilesManage__group { 
+    display: flex;
+    margin-top: 12em
+}
+
+.profileManage__Link {
+    text-decoration: none;
+}
+
+.profileManage__item { 
+    margin-right: 2em;
+}
+
+.profileManage__picture {
+    border-radius: 6px; 
+    height: 8em; 
+}
+
+.profileManage__picture:hover {
+    border: 1px solid #dddddd;
+}
+
+.profileManage__picture:hover + .profileManage__name {
+    color: #dddddd;
+}
+
+.profileManage__name {
+    margin-top: 0.2em;
+    text-align: center; 
+    color: #626262;
+}
+
+.profileManage__name:hover {
+    color: #dddddd
+}
+
+.profileManage__profile-delete-Link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.profileManage__delete {
+    margin-bottom: 15px;
+    color: #c9182194;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.profileManage__delete:hover {
+    color: #e50914c2
+    
+}
+
+.profileManage__button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profileManage__button-link { 
+    text-decoration: none;
+    
+}
+
+.profilesManage__manage__button {
+    margin: 2em 0 1em 0;
+    padding: 0.5em 4em;
+    background-color: white;
+    border: none;
+    border-radius: 1px;
+    color: #141414;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.profilesManage__manage__button:hover {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.profile__img__container { 
+    content: '/A';
+    position: absolute;
+    width: 8em;
+    height: 8em;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 1;
+}
+
+.profileManage__profile__edit { 
+    text-decoration: none;
+}
+

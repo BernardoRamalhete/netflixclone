@@ -1,0 +1,30 @@
+.HeaderBody {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logoHeader img {
+    margin-top: -2em;
+    margin-bottom: -2em;
+    height: 9em;
+    width: auto;
+  }
+
+.signInHeader {
+    align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: auto; 
+    margin-right: 1.2em;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+.signInHeader:hover {
+    text-decoration: underline;
+}
+
+.hrHeader {
+    opacity: 0.3;
+}

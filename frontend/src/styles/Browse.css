@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+.netflix-sans-font-loaded {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.netflix-sans-font-loaded.nkufi-font-loaded {
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.netflix-sans-font-loaded.graphik-font-loaded {
+    font-family: GraphikTH,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+.BrowseBody {
+    margin: 0; 
+    box-sizing: border-box;
+    background-color: #111;
+    color: #fff;
+    font-family: 'Netflix Sans', "Helvetica Neue",Helvetica,Arial, sans-serif;
+}
+
+.featured__section { 
+    height: 100vh
+}
+
+.featured__vertical-gradient { 
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%)
+}
+
+.featured__horizontal-gradient { 
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 150px;
+    padding-top: 40px;
+}
+
+.featured__title { 
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.featured__info-container {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.featured__info-rate,
+.featured__info-year,
+.featured__info-seasons { 
+    display: inline-block;
+    margin-right: 15px;  
+}
+
+.featured__info-rate {
+    color: #46d369;
+}
+
+.featured__info-description {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+    max-width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.featured__buttons {
+    margin-top: 15px;
+}
+
+.featured__button-watch,
+.featured__button-add { 
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.3;
+}
+
+.featured__button-watch:hover,
+.featured__button-add:hover {
+    opacity: 0.7;
+}
+
+.featured__button-watch { 
+    background-color: #fff;
+    color: #000;
+}
+
+.featured__button-add { 
+    background-color: #333;
+    color: #fff;
+}
+
+.featured__info-genres { 
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999;
+
+}
+
+.list__section {
+    margin-top: -120px;
+}
+
+.browse__loading { 
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.browse__loading img{ 
+    width: 20%;
+}
+
+.browse__activeMovie-body {
+    position: relative;
+    height: 0;
+    width: 0;
+    font-family: 'Netflix Sans', "Helvetica Neue",Helvetica,Arial, sans-serif;
+}
+
+.browse__activeMovie-background {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.6);
+    overflow: auto;
+}
+
+.browse__activeMovie-container {
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+    height: 900px;
+    margin: 8% auto;
+    border-radius: 8px;
+}
+
+.browse__activeMovie-cover-gradient{
+    background: linear-gradient(to top, #181818 30%, transparent 70%);
+    width: inherit;
+    height: inherit;
+}
+
+.browse__activeMovie-general-info {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.browse__activeMovie-info {
+    color: #fff;
+    padding-top: 650px;
+    margin-left: 40px;
+}
+
+.browse__activeMovie-mini-info {
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: -40px;
+    display: flex; 
+}
+
+.browse__activeMovie-title {
+    font-size: 42px;
+}
+
+.browse__activeMovie-rating {
+    margin-right: 15px;
+    color: #46d369;
+}
+
+.browse__activeMovie-seasons {
+    margin-left: 15px;
+}
+
+.browse__activeMovie-overview {
+    font-size: 18px;
+    margin-top: -10px;
+    width: 85%;
+    background-color: #181818;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.browse__activeMovie-more-info {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 40px;
+    padding-top: 650px;
+    width: 40%;
+}
+
+.browse__activeMovie-genres-title {
+    color: #5a5a5a
+}
+
+
+
+
+
+
+@media (max-width: 760px) { 
+    .featured__section { 
+        height: 90vh
+    } 
+
+    .featured__title { 
+        font-size: 40px;
+    }
+
+    .featured__info-container {
+        font-size: 16px
+    }  
+
+    .featured__info-description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px
+    }
+
+    .featured__button-watch,
+    .featured__button-add {
+        font-size: 16px;
+
+    }
+
+    .featured__info-genres {
+        font-size: 14px;
+    }
+
+    .browse__activeMovie-cover-gradient{
+        background: linear-gradient(to top, #181818 40%, transparent 60%);
+        width: inherit;
+        height: inherit;
+    }
+
+    .browse__activeMovie-general-info {
+        display: block;
+    }
+
+    .browse__activeMovie-info {
+        padding-top: 500px;
+    }
+
+    .browse__activeMovie-more-info {
+        padding-top: 0px;
+        margin-left: 40px;
+    }
+
+    .browse__activeMovie-container {
+        width: 100vw;
+        height: 100vh;
+        margin: 15% auto
+    }
+}

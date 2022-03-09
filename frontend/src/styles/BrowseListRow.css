@@ -1,0 +1,71 @@
+.ListRowBody { 
+    margin-bottom: 30px;
+}
+
+.listRow__title { 
+    margin: 0 0 0 30px
+}
+
+.listRow__list-area { 
+    overflow-x: hidden;
+    padding-left: 30px;
+
+}
+
+.listRow__list { 
+    transition: all ease 0.5s
+}
+
+.listRow__movie-poster { 
+    display: inline-block;
+    width: 10em;
+    cursor: pointer;
+}
+
+.listRow__img { 
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.listRow__img:hover { 
+    transform: scale(1);
+}
+
+.listRow__left,
+.listRow__right { 
+    position: absolute;
+    width: 40px;
+    height: 230px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    /*background: rgba(0, 0, 0, 0.6);*/
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.listRow__left { 
+    background: linear-gradient(to right, #111, transparent);
+    left: 0;
+}
+
+.listRow__right { 
+    background: linear-gradient(to left, #111 , transparent );
+    right: 0;
+}
+
+.ListRowBody:hover .listRow__left,  
+.ListRowBody:hover .listRow__right { 
+    opacity: 1;
+}
+
+@media (max-width: 760px) { 
+    .listRow__left,
+    .listRow__right {
+        opacity: 1;
+    }
+}
