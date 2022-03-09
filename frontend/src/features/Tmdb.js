@@ -1,4 +1,4 @@
-const API_KEY = process.env.TMDB_KEY
+const API_KEY = '702344f6ed796c7a3f6b602bb19d3e2b'
 const API_BASE = 'https://api.themoviedb.org/3'
 
 const fetchTmbd = async (endpoint) => {
