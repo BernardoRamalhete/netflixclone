@@ -46,9 +46,11 @@ npm i
 ```
 <li>Next, in the root folder (not the backend or the frontend folder) create a file with the name '.env' and put the following values inside it:</li>
 ```js
+  
 PORT = 8000
 JWT_SECRET = #place a key, it'll be used to hash the user's passwords to save in the database
 MONGO_URI = #obtained in the mongo DB atlas
 NODE_ENV = production
+  
 ```
 </ol>
