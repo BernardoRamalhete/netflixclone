@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Netflix Clone</h1>
 <p>&nbsp</p>
-<p align="center"> An that uses <a href='https://www.themoviedb.org/'>TMDB API</a> to display movies and a REST API to handle user registration, login and profiles lists</p>
+<p align="center"> An app that uses <a href='https://www.themoviedb.org/'>TMDB API</a> to display movies and a REST API to handle user registration, login and profiles lists. Click the <strong>website</strong> shield to access it on heroku!</p>
 <p>&nbsp</p>
 <div align="center">
 
@@ -35,7 +35,7 @@
 
 <h2></h2>
 <h3 align='center'>What does this app do?</h3>
-<p>This app uses the <a href='https://www.themoviedb.org/'>TMDB API</a> to get movies and display then and their information to users hosted in a NOSQL mongoDB. In this data based is secured the users profiles, with name, email, and a hashed password (using JWT). Each user has his own profiles list, that it cans make full CRUD opperations.
+<p>This app uses the <a href='https://www.themoviedb.org/'>TMDB API</a> to get movies and display then and their information to users. The user's accountes are hosted in a NOSQL mongoDB. In this data based is secured the users profiles, with name, email, and a hashed password (using JWT). Each user has his own profiles list, that it cans make full CRUD opperations.
 The entire webdesign is fully modular by using react to re-utilise and dynamically update the front end interface. Futhermore, the application interface was made using multiple css styles to be as close as possible from the <a href='http://www.netflix.com.br'>netflix's original page.</a></p>
 
 <h2></h2>
