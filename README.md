@@ -92,4 +92,4 @@ localhost:8000
 
 <h2></h2>
 <h3 align='center'>Disclaimer</h3>
-<p>The netflix name and all images related are owned by <a href='http://www.netflix.com'>Netflix.Inc</a>, all rights reserved</p>
+<p align='center'>The netflix name and all images related are owned by <a href='http://www.netflix.com'>Netflix.Inc</a>, all rights reserved</p>
