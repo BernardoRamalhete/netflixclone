@@ -67,7 +67,7 @@ NODE_ENV = production
 <li>Then run the following code in the terminal</li>
 
 ```
-npm run buil
+npm run build
 ```
 
 <p>PS: Don't change directories, the code above must be used while still in the frontend folder</p>
