@@ -77,7 +77,7 @@ npm run build
 ```
 cd ../
 ```
-<li>The start the app by using the following command in the terminal</li>
+<li>Then start the app by using the following command in the terminal</li>
 
 ```
 npm start
