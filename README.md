@@ -35,14 +35,14 @@
 
 <h2></h2>
 <h3 align='center'>What does this app do?</h3>
-<p>This app uses the <a href='https://www.themoviedb.org/'>TMDB API</a> to get movies and display then and their information to users. The user's accountes are hosted in a NOSQL mongoDB. In this data based is secured the users profiles, with name, email, and a hashed password (using JWT). Each user has his own profiles list, that it cans make full CRUD opperations.
+<p>This app uses the <a href='https://www.themoviedb.org/'>TMDB API</a> to get movies and display then and their information to users. The user's accounts are hosted in a NOSQL mongoDB. In this database are stored the users profiles, with name, email, and a hashed password (using bcrypt). Besides those basic infos, the database also stores the user's profiles list, that can be added, edited and deleted.
 The entire webdesign is fully modular by using react to re-utilise and dynamically update the front end interface. Futhermore, the application interface was made using multiple css styles to be as close as possible from the <a href='http://www.netflix.com.br'>netflix's original page.</a></p>
 
 <h2></h2>
 <h3 align='center'>How is the application build?</h3>
 <p>Besides the already stated React and MongoDB, this app uses Mongoose and Axios, to create a more human friendly code, as well as React Router and Redux.</p>
 <p>The server is constructed using Express, so the whole application is developted in JavaScrip, making the app maintenance easier.</p>
-<p>For security measures the database only stores the hashed password, with is provided by JsonWebToken and validated using BCryptJS, and the sensitive content, such as the mongo atlas URI, is stored in a safe .env file, handled by the dotenv npm package.</p>
+<p>For security measures the database only stores the hashed password, with is done by using BCryptJS, and the sensitive content, such as the mongo atlas URI, is stored in a safe .env file, handled by the dotenv npm package. The user authentication is handled by the JsonWebToken package that stores a token in the local storage when the user is logged, and delete it when the user logs out.</p>
 <h2></h2>
 <h3 align='center'>How to run in your PC</h3>
 
